@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About QDIT Labs | Quantum Security Pioneers</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+        
+        :root {
+            --qd-primary: #FFD700;
+            --qd-secondary: #1A1A1A;
+            --qd-accent: #333333;
+            --qd-dark: #1A1A1A;
+            --qd-light: #FAFAFA;
+        }
+        
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: var(--qd-light);
+        }
+        
+        .quantum-pattern {
+            background-color: #FAFAFA;
+        }
+        
+        .qd-gradient-text {
+            background: linear-gradient(90deg, var(--qd-primary), var(--qd-accent));
+            -webkit-background-clip: text;
+            background-clip: text;
+            color: transparent;
+        }
+        
+        .qd-button {
+            background-color: var(--qd-primary);
+            color: var(--qd-secondary);
+            transition: all 0.3s ease;
+        }
+        
+        .qd-button:hover {
+            background-color: #E6C200;
+            transform: translateY(-2px);
+            box-shadow: 0 4px 12px rgba(255, 215, 0, 0.3);
+        }
+        
+        .card-hover-effect {
+            transition: all 0.3s ease;
+            background: white;
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+        }
+        
+        .card-hover-effect:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+        }
+    </style>
+</head>
+<body class="quantum-pattern">
+    <!-- Navigation -->
+    <div id="header-placeholder"></div>
+    
+    <!-- About Hero -->
+    <section class="relative min-h-[50vh] flex items-center pt-32 pb-20 px-4 sm:px-6 lg:px-8 bg-cover bg-center"
+        style="background-image: url('./assets/aboutushero.jpg');">
+        <div class="absolute inset-0 bg-black/80"></div>
+        <div class="relative max-w-7xl mx-auto text-center text-white">
+            <h1 class="text-4xl md:text-5xl font-bold tracking-tight mb-6">
+                Pioneering Quantum Security
+            </h1>
+            <p class="text-lg md:text-xl max-w-3xl mx-auto mb-10 leading-relaxed">
+                Founded by quantum physicists to solve tomorrow's security challenges today
+            </p>
+        </div>
+    </section>
+
+    <!-- Our Story -->
+    <section class="py-20 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid md:grid-cols-2 gap-12 items-center">
+                <div>
+                    <h2 class="text-2xl md:text-3xl font-bold text-gray-900 mb-6">Our Story</h2>
+                    <div class="prose prose-lg text-gray-600">
+                        <p>
+                            QDIT is a deep-tech company that offers quantum-based security solutions to companies, government & defense establishments that help secure digital assets & communication channels against 'quantum hacking' and 'harvesting attacks.' We assist companies & organizations in mitigating this risk based on 'Quantum Encryption' Technology. This cutting-edge technology aids in preparing for the post-quantum digital era. We provide hardware and software solutions to enhance digital security based on quantum physics.
+                        </p>
+                    </div>
+                </div>
+                <div class="relative">
+                    <div class="absolute inset-0 bg-opacity-20 rounded-xl -rotate-3 bg-yellow-100"></div>
+                    <div class="relative bg-white rounded-xl overflow-hidden border border-gray-200 shadow-sm">
+                        <img src="https://images.unsplash.com/photo-1523961131990-5ea7c61b2107?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80" alt="QDIT Labs Team" class="w-full h-auto">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Leadership -->
+    <section class="py-20 bg-gray-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 class="text-2xl md:text-3xl font-bold text-gray-900 mb-4">Leadership Team</h2>
+                <p class="text-gray-600 max-w-2xl mx-auto">World-class experts in quantum physics and cybersecurity</p>
+            </div>
+            
+            <div class="grid md:grid-cols-3 gap-8">
+                <!-- Founder 2 -->
+                <div class="card-hover-effect bg-white p-8 rounded-xl shadow-sm text-center">
+                    <h3 class="text-xl font-bold text-gray-900 mb-1">Animesh Aaryan</h3>
+                    <p class="text-gray-500 mb-4">Co-Founder & CTO</p>
+                    <p class="text-gray-600 text-sm">PhD in Quantum Cryptography. Architect of our QKD systems.</p>
+                </div>
+                
+                <!-- Founder 3 -->
+                <div class="card-hover-effect bg-white p-8 rounded-xl shadow-sm text-center">
+                    <h3 class="text-xl font-bold text-gray-900 mb-1">Bilesh Prasad</h3>
+                    <p class="text-gray-500 mb-4">Head of Product</p>
+                    <p class="text-gray-600 text-sm">20+ years in cybersecurity product development.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <div id="footer-placeholder"></div>
+     
+    <script src="script.js"></script>
+    <script>
+        (function() {
+            'use strict';
+            
+            // Mobile menu functionality
+            function initializeMobileMenu() {
+                console.log('🔧 Initializing mobile menu...');
+                
+                const menuButton = document.getElementById('mobile-menu-button');
+                const mobileMenu = document.getElementById('mobile-menu');
+                
+                if (!menuButton) {
+                    console.error('❌ Mobile menu button not found');
+                    return;
+                }
+                
+                if (!mobileMenu) {
+                    console.error('❌ Mobile menu not found');
+                    return;
+                }
+                
+                console.log('✅ Mobile menu elements found');
+                
+                // Remove any existing listeners to prevent duplicates
+                const newButton = menuButton.cloneNode(true);
+                menuButton.parentNode.replaceChild(newButton, menuButton);
+                
+                // Add click listener to toggle menu
+                newButton.addEventListener('click', function(e) {
+                    console.log('📱 Menu button clicked');
+                    e.preventDefault();
+                    e.stopPropagation();
+                    
+                    const wasHidden = mobileMenu.classList.contains('hidden');
+                    mobileMenu.classList.toggle('hidden');
+                    const isNowHidden = mobileMenu.classList.contains('hidden');
+                    
+                    console.log(`Menu: ${wasHidden ? 'hidden' : 'visible'} → ${isNowHidden ? 'hidden' : 'visible'}`);
+                });
+
+                // Close menu when clicking outside
+                document.addEventListener('click', function(e) {
+                    if (!mobileMenu.contains(e.target) && !newButton.contains(e.target)) {
+                        if (!mobileMenu.classList.contains('hidden')) {
+                            console.log('📱 Closing menu - clicked outside');
+                            mobileMenu.classList.add('hidden');
+                        }
+                    }
+                });
+                
+                console.log('✅ Mobile menu initialized successfully');
+            }
+
+            // Dropdown toggle function
+            window.toggleDropdown = function(menuId) {
+                console.log(`🔽 Toggling dropdown: ${menuId}`);
+                
+                const menu = document.getElementById(`${menuId}-menu`);
+                const arrow = document.getElementById(`${menuId}-arrow`);
+                
+                if (!menu) {
+                    console.error(`❌ Dropdown menu not found: ${menuId}-menu`);
+                    return;
+                }
+                
+                const wasHidden = menu.classList.contains('hidden');
+                menu.classList.toggle('hidden');
+                
+                if (arrow) {
+                    arrow.classList.toggle('rotate-180');
+                } else {
+                    console.warn(`⚠️ Arrow not found: ${menuId}-arrow`);
+                }
+                
+                console.log(`Dropdown ${menuId}: ${wasHidden ? 'closed' : 'open'} → ${menu.classList.contains('hidden') ? 'closed' : 'open'}`);
+            };
+            
+            // Initialize when DOM is ready
+            function init() {
+                console.log('🚀 Starting mobile menu initialization...');
+                
+                // Wait a bit for imported content to load
+                setTimeout(() => {
+                    initializeMobileMenu();
+                }, 100);
+                
+                // Also try again after a longer delay in case of slow loading
+                setTimeout(() => {
+                    if (!document.getElementById('mobile-menu-button')?.onclick) {
+                        console.log('🔄 Retrying mobile menu initialization...');
+                        initializeMobileMenu();
+                    }
+                }, 500);
+            }
+            
+            // Start initialization
+            if (document.readyState === 'loading') {
+                document.addEventListener('DOMContentLoaded', init);
+            } else {
+                init();
+            }
+            
+            // Also initialize on window load as backup
+            window.addEventListener('load', function() {
+                setTimeout(init, 200);
+            });
+        })();
+    </script>
+</body>
+</html>
