@@ -119,131 +119,171 @@
             <div class="text-center mb-16">
                 <h2 class="text-2xl md:text-3xl font-bold text-gray-900 mb-4">Quantum Security for the Post-Quantum Era</h2>
                 <p class="text-gray-600 max-w-4xl mx-auto">
-                    QDIT Labs develops cutting-edge quantum security products that leverage the fundamental principles of quantum physics to provide cryptographic solutions that are secure against both classical and quantum computing attacks. Our product line is designed to meet the stringent security requirements of government, defense, financial, and critical infrastructure sectors.
+                    Taqbit Labs develops cutting-edge quantum security products that leverage the fundamental principles of quantum physics to provide cryptographic solutions that are secure against both classical and quantum computing attacks. Our product line is designed to meet the stringent security requirements of government, defense, financial, and critical infrastructure sectors.
                 </p>
             </div>
             
             <!-- Main Products Section -->
-            <div class="grid md:grid-cols-3 gap-8 items-stretch">
-                <!-- COW QKD Product Card -->
-                <div id="cow-qkd" class="card-hover-effect bg-white border border-gray-200 rounded-xl p-8 shadow-lg flex flex-col h-full">
-                    <div class="w-20 h-20 rounded-lg bg-yellow-100 flex items-center justify-center mb-6 mx-auto border border-yellow-200">
-                        <i class="fas fa-shield-alt text-3xl text-yellow-600"></i>
-                    </div>
-                    <h2 class="text-2xl font-bold text-center text-gray-900 mb-4">COW QKD System</h2>
-                    <div class="prose prose-lg text-gray-600 mb-6 flex-grow">
-                        <p>Coherent-One-Way QKD uses weak coherent pulses with time-bin encoding and a dedicated monitoring line to detect eavesdropping, offering a balance of simplicity and high performance.</p>
-                        
-                        <h3 class="text-xl font-semibold mt-6 text-gray-800">Technical Specifications:</h3>
-                        <div class="mt-4 grid grid-cols-2 gap-4">
-                            <div>
-                                <p class="font-medium">Protocol:</p>
-                                <p class="text-sm text-gray-500">Coherent-One-Way (COW)</p>
-                            </div>
-                            <div>
-                                <p class="font-medium">Wavelength:</p>
-                                <p class="text-sm text-gray-500">1550 nm (C-band)</p>
-                            </div>
-                            <div>
-                                <p class="font-medium">Key Rate:</p>
-                                <p class="text-sm text-gray-500">~1 kbps at 22 dB loss</p>
-                            </div>
-                            <div>
-                                <p class="font-medium">Range:</p>
-                                <p class="text-sm text-gray-500">>100 km fiber link</p>
-                            </div>
+           <div class="grid md:grid-cols-4 gap-8 items-stretch"> <!-- Changed to grid-cols-3 and added items-stretch -->
+            
+            <!-- COW QKD Product Card -->
+            <div id="cow-qkd" class="card-hover-effect bg-white border border-gray-200 rounded-xl p-8 shadow-lg flex flex-col h-full"> <!-- Added flex and h-full -->
+                <div class="w-20 h-20 rounded-lg bg-opacity-20 flex items-center justify-center mb-6 taqbit-primary mx-auto">
+                    <i class="fas fa-shield-alt text-3xl text-white"></i>
+                </div>
+                <h2 class="text-2xl font-bold text-center text-gray-900 mb-4">COW QKD System</h2>
+                <div class="prose prose-lg text-gray-600 mb-6 flex-grow"> <!-- Added flex-grow -->
+                    <p>Coherent-One-Way QKD uses weak coherent pulses with time-bin encoding and a dedicated monitoring line to detect eavesdropping, offering a balance of simplicity and high performance.</p>
+                    
+                    <h3 class="text-xl font-semibold mt-6 text-gray-800">Technical Specifications:</h3>
+                    <div class="mt-4 grid grid-cols-2 gap-4">
+                        <div>
+                            <p class="font-medium">Protocol:</p>
+                            <p class="text-sm text-gray-500">Coherent-One-Way (COW)</p>
                         </div>
-                    </div>
-                    <div class="text-center mt-auto">
-                        <a href="#cow-details" class="inline-flex items-center text-yellow-600 font-medium">
-                            View COW QKD Details
-                            <svg class="ml-1 h-4 w-4" fill="currentColor" viewBox="0 0 20 20">
-                                <path fill-rule="evenodd" d="M10.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L12.586 11H5a1 1 0 110-2h7.586l-2.293-2.293a1 1 0 010-1.414z" clip-rule="evenodd" />
-                            </svg>
-                        </a>
+                        <div>
+                            <p class="font-medium">Wavelength:</p>
+                            <p class="text-sm text-gray-500">1550 nm (C-band)</p>
+                        </div>
+                        <div>
+                            <p class="font-medium">Key Rate:</p>
+                            <p class="text-sm text-gray-500">~1 kbps at 22 dB loss</p>
+                        </div>
+                        <div>
+                            <p class="font-medium">Range:</p>
+                            <p class="text-sm text-gray-500">>100 km fiber link</p>
+                        </div>
                     </div>
                 </div>
+                <div class="text-center mt-auto"> <!-- Changed to mt-auto -->
+                    <a href="#cow-details" class="inline-flex items-center taqbit-text-primary font-medium">
+                        View COW QKD Details
+                        <svg class="ml-1 h-4 w-4" fill="currentColor" viewBox="0 0 20 20">
+                            <path fill-rule="evenodd" d="M10.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L12.586 11H5a1 1 0 110-2h7.586l-2.293-2.293a1 1 0 010-1.414z" clip-rule="evenodd" />
+                        </svg>
+                    </a>
+                </div>
+            </div>
 
-                <!-- DPS QKD Product Card -->
-                <div id="dps-qkd" class="card-hover-effect bg-white border border-gray-200 rounded-xl p-8 shadow-lg flex flex-col h-full">
-                    <div class="w-20 h-20 rounded-lg bg-yellow-100 flex items-center justify-center mb-6 mx-auto border border-yellow-200">
-                        <i class="fas fa-exchange-alt text-3xl text-yellow-600"></i>
-                    </div>
-                    <h2 class="text-2xl font-bold text-center text-gray-900 mb-4">DPS QKD System</h2>
-                    <div class="prose prose-lg text-gray-600 mb-6 flex-grow">
-                        <p>Differential-Phase-Shift QKD encodes information in the relative phase between consecutive photon pulses, offering high key-generation rates and stable operation.</p>
-                        
-                        <h3 class="text-xl font-semibold mt-6 text-gray-800">Technical Specifications:</h3>
-                        <div class="mt-4 grid grid-cols-2 gap-4">
-                            <div>
-                                <p class="font-medium">Protocol:</p>
-                                <p class="text-sm text-gray-500">Differential-Phase-Shift (DPS)</p>
-                            </div>
-                            <div>
-                                <p class="font-medium">Wavelength:</p>
-                                <p class="text-sm text-gray-500">1550 nm (C-band)</p>
-                            </div>
-                            <div>
-                                <p class="font-medium">Key Rate:</p>
-                                <p class="text-sm text-gray-500">~2 kbps at 22 dB loss</p>
-                            </div>
-                            <div>
-                                <p class="font-medium">Range:</p>
-                                <p class="text-sm text-gray-500">>100 km fiber link</p>
-                            </div>
+            <!-- DPS QKD Product Card -->
+            <div id="dps-qkd" class="card-hover-effect bg-white border border-gray-200 rounded-xl p-8 shadow-lg flex flex-col h-full">
+                <div class="w-20 h-20 rounded-lg bg-opacity-20 flex items-center justify-center mb-6 taqbit-primary mx-auto">
+                    <i class="fas fa-exchange-alt text-3xl text-white"></i>
+                </div>
+                <h2 class="text-2xl font-bold text-center text-gray-900 mb-4">DPS QKD System</h2>
+                <div class="prose prose-lg text-gray-600 mb-6 flex-grow">
+                    <p>Differential-Phase-Shift QKD encodes information in the relative phase between consecutive photon pulses, offering high key-generation rates and stable operation.</p>
+                    
+                    <h3 class="text-xl font-semibold mt-6 text-gray-800">Technical Specifications:</h3>
+                    <div class="mt-4 grid grid-cols-2 gap-4">
+                        <div>
+                            <p class="font-medium">Protocol:</p>
+                            <p class="text-sm text-gray-500">Differential-Phase-Shift (DPS)</p>
                         </div>
-                    </div>
-                    <div class="text-center mt-auto">
-                        <a href="#dps-details" class="inline-flex items-center text-yellow-600 font-medium">
-                            View DPS QKD Details
-                            <svg class="ml-1 h-4 w-4" fill="currentColor" viewBox="0 0 20 20">
-                                <path fill-rule="evenodd" d="M10.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L12.586 11H5a1 1 0 110-2h7.586l-2.293-2.293a1 1 0 010-1.414z" clip-rule="evenodd" />
-                            </svg>
-                        </a>
+                        <div>
+                            <p class="font-medium">Wavelength:</p>
+                            <p class="text-sm text-gray-500">1550 nm (C-band)</p>
+                        </div>
+                        <div>
+                            <p class="font-medium">Key Rate:</p>
+                            <p class="text-sm text-gray-500">~2 kbps at 22 dB loss</p>
+                        </div>
+                        <div>
+                            <p class="font-medium">Range:</p>
+                            <p class="text-sm text-gray-500">>100 km fiber link</p>
+                        </div>
                     </div>
                 </div>
+                <div class="text-center mt-auto">
+                    <a href="#dps-details" class="inline-flex items-center taqbit-text-primary font-medium">
+                        View DPS QKD Details
+                        <svg class="ml-1 h-4 w-4" fill="currentColor" viewBox="0 0 20 20">
+                            <path fill-rule="evenodd" d="M10.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L12.586 11H5a1 1 0 110-2h7.586l-2.293-2.293a1 1 0 010-1.414z" clip-rule="evenodd" />
+                        </svg>
+                    </a>
+                </div>
+            </div>
+            <!-- PQC Product Card -->
 
-                <!-- QRNG Product Card -->
-                <div id="qrng" class="card-hover-effect bg-white border border-gray-200 rounded-xl p-8 shadow-lg flex flex-col h-full">
-                    <div class="w-20 h-20 rounded-lg bg-gray-100 flex items-center justify-center mb-6 mx-auto border border-gray-300">
-                        <i class="fas fa-random text-3xl text-gray-800"></i>
-                    </div>
-                    <h2 class="text-2xl font-bold text-center text-gray-900 mb-4">QRNG</h2>
-                    <div class="prose prose-lg text-gray-600 mb-6 flex-grow">
-                        <p>Quantum Random Number Generator based on measuring vacuum fluctuations in an optical field, producing true random bits with >95% entropy at multi-Gbps throughput.</p>
-                        
-                        <h3 class="text-xl font-semibold mt-6 text-gray-800">Technical Specifications:</h3>
-                        <div class="mt-4 grid grid-cols-2 gap-4">
-                            <div>
-                                <p class="font-medium">Entropy Source:</p>
-                                <p class="text-sm text-gray-500">Quantum vacuum fluctuations</p>
-                            </div>
-                            <div>
-                                <p class="font-medium">Output Rate:</p>
-                                <p class="text-sm text-gray-500">Multi-Gbps true random bit rate</p>
-                            </div>
-                            <div>
-                                <p class="font-medium">Entropy:</p>
-                                <p class="text-sm text-gray-500">>95% per bit</p>
-                            </div>
-                            <div>
-                                <p class="font-medium">Certifications:</p>
-                                <p class="text-sm text-gray-500">NIST SP800-22, Dieharder</p>
-                            </div>
+            <div id="pqc-card" class="card-hover-effect bg-white border border-gray-200 rounded-xl p-8 shadow-lg flex flex-col h-full">
+    <div class="w-20 h-20 rounded-lg bg-opacity-20 flex items-center justify-center mb-6 taqbit-primary mx-auto">
+        <i class="fas fa-shield-alt text-3xl text-white"></i>
+    </div>
+    <h2 class="text-2xl font-bold text-center text-gray-900 mb-4">Post-Quantum Cryptography (PQC)</h2>
+    <div class="prose prose-lg text-gray-600 mb-6 flex-grow">
+        <p>PQC secures data using quantum-resistant algorithms that remain safe even against future quantum computers, ensuring long-term confidentiality and integrity.</p>
+
+        <h3 class="text-xl font-semibold mt-6 text-gray-800">Key Features:</h3>
+        <div class="mt-4 grid grid-cols-2 gap-4">
+            <div>
+                <p class="font-medium">Algorithms:</p>
+                <p class="text-sm text-gray-500">CRYSTALS-Kyber, Dilithium, Falcon</p>
+            </div>
+            <div>
+                <p class="font-medium">Standards:</p>
+                <p class="text-sm text-gray-500">NIST PQC Finalist (2024)</p>
+            </div>
+            <div>
+                <p class="font-medium">Migration:</p>
+                <p class="text-sm text-gray-500">Supports hybrid deployments</p>
+            </div>
+            <div>
+                <p class="font-medium">Use Cases:</p>
+                <p class="text-sm text-gray-500">Secure comms, signatures, VPNs, IoT</p>
+            </div>
+        </div>
+    </div>
+    <div class="text-center mt-auto">
+        <a href="#pqc-details" class="inline-flex items-center taqbit-text-primary font-medium">
+            Explore PQC Solutions
+            <svg class="ml-1 h-4 w-4" fill="currentColor" viewBox="0 0 20 20">
+                <path fill-rule="evenodd" d="M10.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L12.586 11H5a1 1 0 110-2h7.586l-2.293-2.293a1 1 0 010-1.414z" clip-rule="evenodd" />
+            </svg>
+        </a>
+    </div>
+</div>
+
+            <!-- QRNG Product Card -->
+            <div id="qrng" class="card-hover-effect bg-white border border-gray-200 rounded-xl p-8 shadow-lg flex flex-col h-full">
+                <div class="w-20 h-20 rounded-lg bg-opacity-20 flex items-center justify-center mb-6 taqbit-secondary mx-auto">
+                    <i class="fas fa-random text-3xl text-white"></i>
+                </div>
+                <h2 class="text-2xl font-bold text-center text-gray-900 mb-4">QRNG</h2>
+                <div class="prose prose-lg text-gray-600 mb-6 flex-grow">
+                    <p>Quantum Random Number Generator based on measuring vacuum fluctuations in an optical field, producing true random bits with >95% entropy at multi-Gbps throughput.</p>
+                    
+                    <h3 class="text-xl font-semibold mt-6 text-gray-800">Technical Specifications:</h3>
+                    <div class="mt-4 grid grid-cols-2 gap-4">
+                        <div>
+                            <p class="font-medium">Entropy Source:</p>
+                            <p class="text-sm text-gray-500">Quantum vacuum fluctuations</p>
+                        </div>
+                        <div>
+                            <p class="font-medium">Output Rate:</p>
+                            <p class="text-sm text-gray-500">Multi-Gbps true random bit rate</p>
+                        </div>
+                        <div>
+                            <p class="font-medium">Entropy:</p>
+                            <p class="text-sm text-gray-500">>95% per bit</p>
+                        </div>
+                        <div>
+                            <p class="font-medium">Certifications:</p>
+                            <p class="text-sm text-gray-500">NIST SP800-22, Dieharder</p>
                         </div>
                     </div>
-                    <div class="text-center mt-auto">
-                        <a href="#qrng-details" class="inline-flex items-center text-yellow-600 font-medium">
-                            View QRNG Details
-                            <svg class="ml-1 h-4 w-4" fill="currentColor" viewBox="0 0 20 20">
-                                <path fill-rule="evenodd" d="M10.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L12.586 11H5a1 1 0 110-2h7.586l-2.293-2.293a1 1 0 010-1.414z" clip-rule="evenodd" />
-                            </svg>
-                        </a>
-                    </div>
+                </div>
+                <div class="text-center mt-auto">
+                    <a href="#qrng-details" class="inline-flex items-center taqbit-text-secondary font-medium">
+                        View QRNG Details
+                        <svg class="ml-1 h-4 w-4" fill="currentColor" viewBox="0 0 20 20">
+                            <path fill-rule="evenodd" d="M10.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L12.586 11H5a1 1 0 110-2h7.586l-2.293-2.293a1 1 0 010-1.414z" clip-rule="evenodd" />
+                        </svg>
+                    </a>
                 </div>
             </div>
         </div>
-    </section>
+    </div>
+</section>
 
     <!-- Product Details Section -->
     <section class="py-20 bg-gray-50">
